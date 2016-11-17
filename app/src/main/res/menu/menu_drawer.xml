@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single"
+        android:title="MENU"
+        android:id="@+id/g1">
+        <item
+            android:id="@+id/navigation_item_1"
+            android:icon="@drawable/ic_drawer_chat"
+            android:title="Message"/>
+        <item
+            android:id="@+id/navigation_item_2"
+            android:icon="@drawable/ic_drawer_data_usage"
+            android:title="Data Usage"/>
+
+    </group>
+
+    <group
+        android:checkableBehavior="single"
+        android:title="OTHERS"
+        android:id="@+id/g2">
+        <menu>
+            <item
+                android:id="@+id/navigation_item_g2"
+                android:icon="@drawable/ic_drawer_data_usage"
+                android:title="Data Usage"/>
+            <item
+                android:id="@+id/navigation_item_g3"
+                android:icon="@drawable/ic_drawer_email"
+                android:title="Mail"/>
+            <item
+                android:id="@+id/navigation_item_g4"
+                android:icon="@drawable/ic_drawer_event"
+                android:title="Event"/>
+        </menu>
+    </group>
+
+</menu>
